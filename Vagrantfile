@@ -55,7 +55,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   config.vm.network "private_network", ip: "192.168.50.2"
-  config.vm.hostname = "wpvagrant.dev"
+  config.vm.hostname = "wordpress.dev"
   config.hostsupdater.remove_on_suspend = true
 
   # Vagrant triggers
